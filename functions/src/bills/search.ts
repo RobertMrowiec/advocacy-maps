@@ -16,7 +16,7 @@ export const {
   idField: "id",
   schema: {
     fields: [
-      { name: "number", type: "string", facet: false },
+      { name: "number", type: "string", facet: false, infix: true },
       { name: "title", type: "string", facet: false },
       { name: "body", type: "string", facet: false, optional: true },
       { name: "city", type: "string", facet: true, optional: true },
